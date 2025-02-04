@@ -10038,7 +10038,7 @@ for(a=t.af,q=a0==="\u0627\u0644\u062a\u0631\u062a\u064a\u0644 \u0646\u0638\u0631
 i=A.c6(p.b.aW(0,"total"),p.a)
 d.a+=i
 p=A.h(i)
-p=q?p+"/20":p+"/"+o.length*20
+p=q?p+"/20":p+"/"+(o.length-1)*20
 p=A.a([A.mW(B.cR,new A.hj(A.dk(p,A.dE(null,B.du,null,null,null,null,null,null,null,B.aX,null,null,10,null,null,null,!0,null,null,null,null),null,null),B.b1),null,null,null,null)],a)
 for(h=o.length,m=0;m<o.length;o.length===h||(0,A.x)(o),++m){g=o[m]
 f=a3.gd4()[j]
@@ -54678,7 +54678,7 @@ B.l.O(j,p.e)
 j=A.aQK(k,j,o,B.nc,B.Mr,B.mf)
 k=p.a.a
 r=p.f.length
-m=m==="\u0627\u0644\u062a\u0631\u062a\u064a\u0644 \u0646\u0638\u0631\u0627 \u0645\u0646 \u0627\u0644\u0645\u0635\u062d\u0641"?"\u0627\u0644\u0646\u062a\u064a\u062c\u0629 :20 / "+A.h(k/r)+" ":"\u0627\u0644\u0646\u062a\u064a\u062c\u0629 :"+s.length*20+" / "+A.h(k/r)+" "
+m=m==="\u0627\u0644\u062a\u0631\u062a\u064a\u0644 \u0646\u0638\u0631\u0627 \u0645\u0646 \u0627\u0644\u0645\u0635\u062d\u0641"?"\u0627\u0644\u0646\u062a\u064a\u062c\u0629 :20 / "+A.h(k/r)+" ":"\u0627\u0644\u0646\u062a\u064a\u062c\u0629 :"+(s.length-1)*20+" / "+A.h(k/r)+" "
 return A.PG(A.a([n,new A.iZ(o,25,o),new A.hj(l,B.b1),new A.iZ(o,20,o),j,new A.iZ(o,20,o),new A.hj(A.dk(m,A.dE(o,B.du,o,o,o,o,o,o,o,B.aX,o,o,12,o,o,o,!0,o,o,o,o),o,o),B.b1)],i),B.nB)},
 $S:106}
 A.aFC.prototype={
