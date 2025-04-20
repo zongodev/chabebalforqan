@@ -54621,7 +54621,7 @@ for(a4=b7,a5=A.bP(a4),a6=new A.mq(a4,a4.r,a5.i("mq<1>")),a6.c=a4.e,a5=a5.c;a6.v(
 l=a4==null?a5.a(a4):a4
 k="***"
 for(a4=J.ax(J.bh(p,"scores"));a4.v();){j=a4.gH(a4)
-if(J.e(J.bh(j,b0),l)){if(J.bh(j,b2)!=null)a7=a0?A.h(J.bh(j,b2))+"/20":A.h(J.bh(j,b2))+"/"+a3.a.length*20
+if(J.e(J.bh(j,b0),l)){if(J.bh(j,b2)!=null)a7=a0?A.h(J.bh(j,b2))+"/20":A.h(J.bh(j,b2))+"/"+(a3.a.length-1)*20
 else a7=b1
 k=a7;++m
 if(J.bh(j,b2)!=null)n+=J.bh(j,b2)
@@ -54630,10 +54630,10 @@ J.d_(o,A.dk(a4,A.dE(a9,!J.e(k,b1)&&A.aKs(J.a7Y(k,"/")[0])>90*a3.a.length*20/100?
 J.d_(o,A.dk(a4,A.dE(a9,!J.e(k,b1)&&A.aKs(J.a7Y(k,"/")[0])>18?B.du:B.cy,a9,a9,a9,a9,a9,a9,a9,B.aX,a9,a9,a9,a9,a9,a9,!0,a9,a9,a9,a9),a9,B.b1))}}i=n/m
 h=isNaN(i)?b1:J.aY1(i,2)
 if(a2){a4=J.bh(p,b3)
-g=A.dk(a4,A.dE(a9,i>90*a3.a.length*20/100?B.du:B.cy,a9,a9,a9,a9,a9,a9,a9,B.aX,a9,a9,a9,a9,a9,a9,!0,a9,a9,a9,a9),a9,B.b1)
+g=A.dk(a4,A.dE(a9,i>90*(a3.a.length-1)*20/100?B.du:B.cy,a9,a9,a9,a9,a9,a9,a9,B.aX,a9,a9,a9,a9,a9,a9,!0,a9,a9,a9,a9),a9,B.b1)
 J.d_(o,g)}else{a4=J.bh(p,b3)
 f=A.dk(a4,A.dE(a9,i>18?B.du:B.cy,a9,a9,a9,a9,a9,a9,a9,B.aX,a9,a9,a9,a9,a9,a9,!0,a9,a9,a9,a9),a9,B.b1)
-J.d_(o,f)}if(a2){e=A.dk(h,A.dE(a9,i>90*a3.a.length*20/100?B.du:B.cy,a9,a9,a9,a9,a9,a9,a9,B.aX,a9,a9,a9,a9,a9,a9,!0,a9,a9,a9,a9),a9,B.b1)
+J.d_(o,f)}if(a2){e=A.dk(h,A.dE(a9,i>90*(a3.a.length-1)*20/100?B.du:B.cy,a9,a9,a9,a9,a9,a9,a9,B.aX,a9,a9,a9,a9,a9,a9,!0,a9,a9,a9,a9),a9,B.b1)
 J.aLM(o,0,e)
 J.d_(b4,o)}else{d=A.dk(h,A.dE(a9,i>18?B.du:B.cy,a9,a9,a9,a9,a9,a9,a9,B.aX,a9,a9,a9,a9,a9,a9,!0,a9,a9,a9,a9),a9,B.b1)
 J.aLM(o,0,d)
